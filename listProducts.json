@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "6446c2e4a874f7b89160f14b",
+    "name": "Teclado",
+    "quantity": 10,
+    "price": 5.4,
+    "createdAt": "2023-04-24T17:56:52.149Z",
+    "updatedAt": "2023-04-24T17:56:52.149Z",
+    "__v": 0
+  },
+  {
+    "_id": "6446c2e4a874f7b89160f14e",
+    "name": "Ramdom",
+    "quantity": 50,
+    "price": 7.4,
+    "createdAt": "2023-04-24T17:56:52.150Z",
+    "updatedAt": "2023-04-24T17:56:52.150Z",
+    "__v": 0
+  },
+  {
+    "_id": "6446c2e4a874f7b89160f14f",
+    "name": "Tesoura",
+    "quantity": 10,
+    "price": 5.78,
+    "createdAt": "2023-04-24T17:56:52.150Z",
+    "updatedAt": "2023-04-24T17:56:52.150Z",
+    "__v": 0
+  },
+  {
+    "_id": "6446c2e4a874f7b89160f150",
+    "name": "Caderno",
+    "quantity": 22,
+    "price": 9.9,
+    "createdAt": "2023-04-24T17:56:52.150Z",
+    "updatedAt": "2023-04-24T17:56:52.150Z",
+    "__v": 0
+  },
+  {
+    "_id": "6446c2e4a874f7b89160f151",
+    "name": "Folhas",
+    "quantity": 100,
+    "price": 22.1,
+    "createdAt": "2023-04-24T17:56:52.150Z",
+    "updatedAt": "2023-04-24T17:56:52.150Z",
+    "__v": 0
+  },
+  {
+    "_id": "6446c2e4a874f7b89160f152",
+    "name": "Fone",
+    "quantity": 50,
+    "price": 7.4,
+    "createdAt": "2023-04-24T17:56:52.150Z",
+    "updatedAt": "2023-04-24T17:56:52.150Z",
+    "__v": 0
+  },
+  {
+    "_id": "6446c2e4a874f7b89160f14c",
+    "name": "Mouse",
+    "quantity": 8,
+    "price": 15.99,
+    "createdAt": "2023-04-24T17:56:52.149Z",
+    "updatedAt": "2023-04-24T17:56:52.149Z",
+    "__v": 0
+  },
+  {
+    "_id": "6446c2e4a874f7b89160f14d",
+    "name": "Notebook",
+    "quantity": 20,
+    "price": 6,
+    "createdAt": "2023-04-24T17:56:52.150Z",
+    "updatedAt": "2023-04-24T17:56:52.150Z",
+    "__v": 0
+  },
+  {
+    "_id": "6446c2e4a874f7b89160f153",
+    "name": "Air freyer",
+    "quantity": 50,
+    "price": 7.4,
+    "createdAt": "2023-04-24T17:56:52.150Z",
+    "updatedAt": "2023-04-24T17:56:52.150Z",
+    "__v": 0
+  },
+  {
+    "_id": "6446c2e4a874f7b89160f154",
+    "name": "Gabinete",
+    "quantity": 50,
+    "price": 7.4,
+    "createdAt": "2023-04-24T17:56:52.150Z",
+    "updatedAt": "2023-04-24T17:56:52.150Z",
+    "__v": 0
+  }
+]

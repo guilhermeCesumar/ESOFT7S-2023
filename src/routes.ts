@@ -1,18 +1,19 @@
-import { Router } from 'express'
-import healthCheckController from './controller/healthCheckController'
-import userController from './user/user.controller'
+import { Router } from "express";
+import productController from "./products/product.controller";
+import stockController from "./stock/stock.controller";
 
+const routes = Router();
 
-const routes = Router()
+routes.post("/product", productController.create);
+routes.get("/product", productController.list);
+routes.get("/product/:id", productController.find);
+routes.put("/product/:id", productController.update);
+routes.delete("/product/:id", productController.delete);
+routes.get("/products-write", productController.findAndWriteProducts);
+routes.get("/products-read", productController.readProducts);
 
-routes.get('/health-check', healthCheckController.check)
-routes.post('/users', userController.create)
-routes.get('/users', userController.list)
-routes.get('/users/:id', userController.find)
-routes.get('/users-name', userController.findByName)
-routes.put('/users/:id', userController.update)
-routes.delete('/users/:id', userController.delete)
+routes.post("/product-stock", stockController.create);
+routes.get("/product-stock-random", stockController.chooseRandomProducts);
+routes.get("/product-stock-total", stockController.stockTotalValue);
 
-
-
-export default routes
+export default routes;
